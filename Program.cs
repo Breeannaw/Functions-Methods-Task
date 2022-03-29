@@ -6,7 +6,37 @@ namespace Functions_Methods_Task
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //string Say = SayHello();
+            //Console.WriteLine(Say);
+
+            // string Wel = Welcome("John");
+            // Console.WriteLine(Wel);
+
+            // int ans = AddTwoNums(15, 16);
+            // Console.WriteLine(ans);
+
+            int Spaces = SpaceCount();
+            Console.WriteLine("Please Input a String");
+            string ToCount = Console.ReadLine();
+            Console.WriteLine(ToCount = "contains "+Spaces+"spaces");
+           
         }
+        public static string SayHello(){
+            string Say = "Welcome Friends!"+"Have a Nice Day!";
+            return Say;
+        }
+        public static string Welcome(string inName) {
+            string Wel = "Welcome Friend"+" "+ inName +". "+ "Have a Nice Day!";
+            return Wel;
+        }
+        public static int AddTwoNums(int num1, int num2) { 
+        int ans = num1 + num2;
+        return ans; 
+}
+        public static int SpaceCount() {
+            int Spaces = ToCount.Count(Char.IsWhiteSpace);
+            return Spaces;
+        }
+
     }
 }
