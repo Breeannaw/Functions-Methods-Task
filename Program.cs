@@ -15,10 +15,11 @@ namespace Functions_Methods_Task
             // int ans = AddTwoNums(15, 16);
             // Console.WriteLine(ans);
 
-            int Spaces = SpaceCount();
+        /*    int Spaces = SpaceCount();
+            string[] ToCount = new string[2]; 
             Console.WriteLine("Please Input a String");
-            string ToCount = Console.ReadLine();
-            Console.WriteLine(ToCount = "contains "+Spaces+"spaces");
+            ToCount[0] = Console.ReadLine();
+            Console.WriteLine(ToCount = "contains "+Spaces+"spaces");   */
            
         }
         public static string SayHello(){
@@ -34,7 +35,6 @@ namespace Functions_Methods_Task
         return ans; 
 }
         public static int SpaceCount() {
-            int Spaces = ToCount.Count(Char.IsWhiteSpace);
             return Spaces;
         }
 
